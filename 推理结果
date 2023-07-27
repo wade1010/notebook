@@ -1,0 +1,20 @@
+推理结果解释
+{
+"predict_bleu-4": 7.735923271028038,
+"predict_rouge-1": 29.51147121495327,
+"predict_rouge-2": 6.489174953271028,
+"predict_rouge-l": 23.8471385046729,
+"predict_runtime": 65.7331,
+"predict_samples": 1070,
+"predict_samples_per_second": 16.278,
+"predict_steps_per_second": 0.259
+}
+
+predict_bleu-4: 这是BLEU-4分数，它是一种机器翻译质量的评估指标，它测量了生成的文本和参考翻译之间的相似程度。BLEU-4是四元组的BLEU分数，表示生成的文本与参考翻译重叠的4元组数量的准确率。
+predict_rouge-1: 这是ROUGE-1分数，它是一种评估文本摘要质量的指标。它测量了生成的文本和参考摘要之间的重叠程度。
+predict_rouge-2: 这是ROUGE-2分数，它是ROUGE-1的扩展，它测量了生成的文本和参考摘要之间的相似程度，其中包含两个连续的重叠词组。
+predict_rouge-l: 这是ROUGE-L分数，它是另一种评估文本摘要质量的指标。它测量了生成的文本和参考摘要之间的最长公共子序列的长度。
+predict_runtime: 这是模型在测试集上的评估时间，以秒为单位。
+predict_samples: 这是用于评估模型的样本数。
+predict_samples_per_second: 这是模型在评估期间处理的样本数每秒。
+predict_steps_per_second: 这是模型在评估期间执行的步骤数每秒。
